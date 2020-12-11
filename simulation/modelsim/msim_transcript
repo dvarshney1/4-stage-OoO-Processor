@@ -1,0 +1,613 @@
+# ERROR: No extended dataflow license exists
+# do mp4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /software/quartus-std-18.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:24 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv 
+# -- Compiling module cacheline_adaptor
+# 
+# Top level modules:
+# 	cacheline_adaptor
+# End time: 19:11:24 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:24 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv 
+# -- Compiling module Branch_Predictor
+# 
+# Top level modules:
+# 	Branch_Predictor
+# End time: 19:11:24 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:24 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv 
+# -- Compiling module line_adapter
+# 
+# Top level modules:
+# 	line_adapter
+# End time: 19:11:25 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:25 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv 
+# -- Compiling module data_array
+# 
+# Top level modules:
+# 	data_array
+# End time: 19:11:25 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:25 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv 
+# -- Compiling module cache_datapath
+# 
+# Top level modules:
+# 	cache_datapath
+# End time: 19:11:25 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:25 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv 
+# -- Compiling module cache_control
+# 
+# Top level modules:
+# 	cache_control
+# End time: 19:11:26 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:26 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv 
+# -- Compiling module array
+# 
+# Top level modules:
+# 	array
+# End time: 19:11:26 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:26 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 19:11:26 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:26 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv 
+# -- Compiling module reorder_buffer
+# 
+# Top level modules:
+# 	reorder_buffer
+# End time: 19:11:26 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 19:11:27 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv 
+# -- Compiling module instruction_queue
+# 
+# Top level modules:
+# 	instruction_queue
+# End time: 19:11:27 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl {/home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl" /home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv 
+# -- Compiling package pcmux
+# -- Compiling package marmux
+# -- Compiling package cmpmux
+# -- Compiling package alumux
+# -- Compiling package regfilemux
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:11:27 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv 
+# -- Compiling module cache
+# 
+# Top level modules:
+# 	cache
+# End time: 19:11:27 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv 
+# -- Compiling module fetch
+# 
+# Top level modules:
+# 	fetch
+# End time: 19:11:27 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl {/home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:27 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl" /home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv 
+# -- Compiling package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:11:28 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache {/home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:28 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache" /home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv 
+# -- Compiling package main_cache_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module main_cache
+# 
+# Top level modules:
+# 	main_cache
+# End time: 19:11:28 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:28 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv 
+# -- Compiling package mem_mux_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module mem_mux
+# 
+# Top level modules:
+# 	mem_mux
+# End time: 19:11:28 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:29 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv 
+# -- Compiling package decoder_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 19:11:29 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:29 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv 
+# -- Compiling package cmp_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module cmp
+# 
+# Top level modules:
+# 	cmp
+# End time: 19:11:29 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:29 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv 
+# -- Compiling package ALU_reservation_station_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module ALU_reservation_station
+# 
+# Top level modules:
+# 	ALU_reservation_station
+# End time: 19:11:30 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:30 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv 
+# -- Compiling package alu_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:11:30 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:30 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv 
+# -- Compiling package LDST_reservation_station_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module LDST_reservation_station
+# 
+# Top level modules:
+# 	LDST_reservation_station
+# End time: 19:11:30 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:30 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv 
+# -- Compiling package BR_reservation_station_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module BR_reservation_station
+# 
+# Top level modules:
+# 	BR_reservation_station
+# End time: 19:11:31 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu {/home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:31 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu" /home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv 
+# -- Compiling package cpu_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 19:11:31 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl {/home/nikhila4/C_over_Python/mp4/hdl/mp4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:31 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hdl" /home/nikhila4/C_over_Python/mp4/hdl/mp4.sv 
+# -- Compiling package mp4_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module mp4
+# 
+# Top level modules:
+# 	mp4
+# End time: 19:11:31 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:31 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/top.sv 
+# -- Compiling module mp4_tb
+# 
+# Top level modules:
+# 	mp4_tb
+# End time: 19:11:31 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:31 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv 
+# -- Compiling interface tb_itf
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:11:32 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:32 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv 
+# -- Compiling module magic_memory_dp
+# 
+# Top level modules:
+# 	magic_memory_dp
+# End time: 19:11:32 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:32 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv 
+# -- Compiling module ParamMemory
+# ** Warning: /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(33): (vlog-2244) Variable 'iteration' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# 
+# Top level modules:
+# 	ParamMemory
+# End time: 19:11:33 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:33 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv 
+# -- Compiling interface rvfi_itf
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:11:33 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:33 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v 
+# -- Compiling module riscv_formal_monitor_rv32imc
+# -- Compiling module riscv_formal_monitor_rv32imc_rob
+# -- Compiling module riscv_formal_monitor_rv32imc_isa_spec
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_add
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_addi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_and
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_andi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_auipc
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_beq
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bge
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bgeu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_blt
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bltu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bne
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_add
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi16sp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi4spn
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_and
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_andi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_beqz
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_bnez
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_j
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jal
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jalr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_li
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lui
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lwsp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_mv
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_or
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_slli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_srai
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_srli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_sub
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_sw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_swsp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_xor
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_div
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_divu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_jal
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_jalr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lb
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lbu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lhu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lui
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mul
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulhsu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulhu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_or
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_ori
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_rem
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_remu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sb
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sll
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slt
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slti
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sltiu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sltu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sra
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srai
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srl
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sub
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_xor
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_xori
+# 
+# Top level modules:
+# 	riscv_formal_monitor_rv32imc
+# End time: 19:11:33 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:33 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv 
+# -- Compiling module shadow_memory
+# 
+# Top level modules:
+# 	shadow_memory
+# End time: 19:11:33 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl {/home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:33 on Dec 09,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/nikhila4/C_over_Python/mp4/hvl" /home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv 
+# -- Compiling interface tb_itf
+# -- Compiling module source_tb
+# 
+# Top level modules:
+# 	source_tb
+# End time: 19:11:34 on Dec 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L arriaii_hssi_ver -L arriaii_pcie_hip_ver -L arriaii_ver -L rtl_work -L work -voptargs="+acc"  mp4_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L arriaii_hssi_ver -L arriaii_pcie_hip_ver -L arriaii_ver -L rtl_work -L work -voptargs=""+acc"" mp4_tb 
+# Start time: 19:11:34 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.mp4_tb
+# Loading work.tb_itf
+# Loading work.rvfi_itf
+# Loading work.source_tb
+# Loading work.regfilemux
+# Loading work.alumux
+# Loading work.cmpmux
+# Loading work.marmux
+# Loading work.pcmux
+# Loading work.rv32i_types
+# Loading work.mp4_sv_unit
+# Loading work.mp4
+# Loading work.cpu_sv_unit
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.Branch_Predictor
+# Loading work.instruction_queue
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.BR_reservation_station_sv_unit
+# Loading work.BR_reservation_station
+# Loading work.cmp_sv_unit
+# Loading work.cmp
+# Loading work.ALU_reservation_station_sv_unit
+# Loading work.ALU_reservation_station
+# Loading work.LDST_reservation_station_sv_unit
+# Loading work.LDST_reservation_station
+# Loading work.mem_mux_sv_unit
+# Loading work.mem_mux
+# Loading work.reorder_buffer
+# Loading work.regfile
+# Loading work.main_cache_sv_unit
+# Loading work.main_cache
+# Loading work.cache
+# Loading work.cache_control
+# Loading work.cache_datapath
+# Loading work.data_array
+# Loading work.array
+# Loading work.line_adapter
+# Loading work.arbiter
+# Loading work.cacheline_adaptor
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.ParamMemory
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(179): Variable '/mp4_tb/itf/data_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(178): Variable '/mp4_tb/itf/data_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(177): Variable '/mp4_tb/itf/inst_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(176): Variable '/mp4_tb/itf/inst_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Compilation Successful
+# Reset Memory
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+do wave.do; restart -f ;run -all
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(179): Variable '/mp4_tb/itf/data_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(178): Variable '/mp4_tb/itf/data_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(177): Variable '/mp4_tb/itf/inst_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/nikhila4/C_over_Python/mp4/hvl/top.sv(176): Variable '/mp4_tb/itf/inst_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/nikhila4/C_over_Python/mp4/hvl/top.sv
+# Compilation Successful
+# Reset Memory
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv(104): Non-existent associative array entry. Returning default value.
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Incorrect Opcode Selected
+# Halt = 1 Initiated
+# ** Note: $finish    : /home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv(35)
+#    Time: 3455565 ns  Iteration: 1  Instance: /mp4_tb/tb
+# 1
+# Break in Module source_tb at /home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv line 35

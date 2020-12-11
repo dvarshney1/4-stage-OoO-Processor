@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at Branch_Predictor.sv(16): object "BTB" differs only in case from object "btb" in the same scope File: /home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv Line: 16
+Info (10281): Verilog HDL Declaration information at reorder_buffer.sv(23): object "ROB" differs only in case from object "rob" in the same scope File: /home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv Line: 23
+Info (10281): Verilog HDL Declaration information at instruction_queue.sv(29): object "IQ" differs only in case from object "iq" in the same scope File: /home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv Line: 29
+Info (10281): Verilog HDL Declaration information at BR_reservation_station.sv(41): object "BR_RS" differs only in case from object "br_rs" in the same scope File: /home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv Line: 41
+Info (10281): Verilog HDL Declaration information at ALU_reservation_station.sv(32): object "ALU_RS" differs only in case from object "alu_rs" in the same scope File: /home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv Line: 32

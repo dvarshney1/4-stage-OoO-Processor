@@ -1,0 +1,2883 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nikhila4/C_over_Python/mp4/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 5 pcmux 0 22 Zb4=bz:[zDM0ENC]O6;IG0
+Z3 DXx4 work 6 marmux 0 22 5D50JZKSXK6DA8oE=5L6V2
+Z4 DXx4 work 6 cmpmux 0 22 KSheYLi]4Ui`44^o7maUo1
+Z5 DXx4 work 6 alumux 0 22 QUf9zB0j>5NBURC2MjBQ21
+Z6 DXx4 work 10 regfilemux 0 22 nch]VA`O?aQ8gfJH>baBk1
+Z7 DXx4 work 11 rv32i_types 0 22 E2WKT[SQ6ZPm;4[S39nUi3
+DXx4 work 11 alu_sv_unit 0 22 Aa7Z8ZzhJbV>8kiNOPkJJ3
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 j`3_zHZOI?R@5Y7SZV1B?1
+IaR;z6MLN01`@:_iMl`Xa_0
+!s105 alu_sv_unit
+S1
+R0
+Z9 w1606880703
+Z10 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv
+Z11 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv
+L0 3
+Z12 OV;L;10.5b;63
+Z13 !s108 1607562690.000000
+Z14 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/alu.sv|
+!i113 1
+Z16 o-sv -work work
+Z17 !s92 -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu
+Z18 tCvgOpt 0
+vALU_reservation_station
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 31 ALU_reservation_station_sv_unit 0 22 dAK95S22V[:L4^MfCBT3:1
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 >5bSkgI52UZ7;k>R``nJZ2
+IOYZ7nc3UKH]RRKd>5@]8g3
+!s105 ALU_reservation_station_sv_unit
+S1
+R0
+Z19 w1607546764
+Z20 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv
+Z21 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv
+L0 5
+R12
+Z22 !s108 1607562689.000000
+Z23 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv|
+Z24 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/ALU_reservation_station.sv|
+!i113 1
+R16
+R17
+R18
+n@a@l@u_reservation_station
+XALU_reservation_station_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VdAK95S22V[:L4^MfCBT3:1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _fF4Y51Vk:GfFDfRRN2i>0
+IdAK95S22V[:L4^MfCBT3:1
+!i103 1
+S1
+R0
+R19
+R20
+R21
+L0 1
+R12
+R22
+R23
+R24
+!i113 1
+R16
+R17
+R18
+n@a@l@u_reservation_station_sv_unit
+Xalu_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VAa7Z8ZzhJbV>8kiNOPkJJ3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?HDUiHno2<G=maZ`WM@Cd1
+IAa7Z8ZzhJbV>8kiNOPkJJ3
+!i103 1
+S1
+R0
+R9
+R10
+R11
+L0 1
+R12
+R13
+R14
+R15
+!i113 1
+R16
+R17
+R18
+Xalumux
+R1
+Z25 !s110 1607562687
+!i10b 1
+!s100 :UfNm4o`XL>^;_H@35H4I2
+IQUf9zB0j>5NBURC2MjBQ21
+VQUf9zB0j>5NBURC2MjBQ21
+S1
+R0
+R9
+Z26 8/home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv
+Z27 F/home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv
+L0 25
+R12
+r1
+!s85 0
+31
+Z28 !s108 1607562687.000000
+Z29 !s107 /home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv|
+Z30 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl|/home/nikhila4/C_over_Python/mp4/hdl/rv32i_mux_types.sv|
+!i113 1
+R16
+Z31 !s92 -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl
+R18
+varbiter
+R1
+Z32 !s110 1607562686
+!i10b 1
+!s100 >@CS:oJ]XL:l=f@=jABBX2
+IAeYLK<WE>9kFNhgE5iG671
+R8
+!s105 arbiter_sv_unit
+S1
+R0
+Z33 w1607113706
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv
+L0 1
+R12
+r1
+!s85 0
+31
+Z34 !s108 1607562686.000000
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/arbiter.sv|
+!i113 1
+R16
+Z35 !s92 -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache
+R18
+varray
+R1
+R32
+!i10b 1
+!s100 @NL;zUkJ8OPPZ_o6_=W;l0
+IoYbIOfR47JnU`kP8Yl?cn0
+R8
+!s105 array_sv_unit
+S1
+R0
+w1607560377
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv
+L0 2
+R12
+r1
+!s85 0
+31
+R34
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/array.sv|
+!i113 1
+R16
+R35
+R18
+vBR_reservation_station
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 30 BR_reservation_station_sv_unit 0 22 gXzY5UFNUH9<dJOXP_XfJ1
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 m:zFfM7LVFX3IDeTlak792
+IF??92^IfWFjDY^XLPQKSC2
+!s105 BR_reservation_station_sv_unit
+S1
+R0
+Z36 w1607561984
+Z37 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv
+Z38 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv
+L0 3
+R12
+R13
+Z39 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv|
+Z40 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/BR_reservation_station.sv|
+!i113 1
+R16
+R17
+R18
+n@b@r_reservation_station
+XBR_reservation_station_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VgXzY5UFNUH9<dJOXP_XfJ1
+r1
+!s85 0
+31
+!i10b 1
+!s100 17zFIZ;J]`SX?XcEO5DV[0
+IgXzY5UFNUH9<dJOXP_XfJ1
+!i103 1
+S1
+R0
+R36
+R37
+R38
+L0 1
+R12
+R13
+R39
+R40
+!i113 1
+R16
+R17
+R18
+n@b@r_reservation_station_sv_unit
+vBranch_Predictor
+R1
+Z41 !s110 1607562684
+!i10b 1
+!s100 CWeROIlX46Sj4BCLN99?Q1
+I@`>kJMlHcePWEKhL4N4mR0
+R8
+!s105 Branch_Predictor_sv_unit
+S1
+R0
+w1607559563
+8/home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv
+L0 2
+R12
+r1
+!s85 0
+31
+Z42 !s108 1607562684.000000
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/Branch_Predictor.sv|
+!i113 1
+R16
+R17
+R18
+n@branch_@predictor
+vcache
+R1
+R25
+!i10b 1
+!s100 deJP7UebecKZ8;li`U;ji3
+Ij:9Y7NZ]Z8F4Wdf5NFgLA2
+R8
+!s105 cache_sv_unit
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R28
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache.sv|
+!i113 1
+R16
+R35
+R18
+vcache_control
+R1
+R32
+!i10b 1
+!s100 dX8on;[?BS=Rk97Q[T6;c1
+IHO>PMeQYgASGgkR`G8UD`1
+R8
+!s105 cache_control_sv_unit
+S1
+R0
+R33
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv
+L0 1
+R12
+r1
+!s85 0
+31
+Z43 !s108 1607562685.000000
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_control.sv|
+!i113 1
+R16
+R35
+R18
+vcache_datapath
+R1
+Z44 !s110 1607562685
+!i10b 1
+!s100 biJY?iRC5>5g`3CDoHhj`3
+I=CB<h8Na7j?:A?R?RRS?J3
+R8
+!s105 cache_datapath_sv_unit
+S1
+R0
+w1607562484
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R43
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cache_datapath.sv|
+!i113 1
+R16
+R35
+R18
+vcacheline_adaptor
+R1
+R41
+!i10b 1
+!s100 G0X<CkN^I=JJE6A6jQ8fe3
+IaMje4U>eg]Mhoi9HNODm`2
+R8
+!s105 cacheline_adaptor_sv_unit
+S1
+R0
+w1607557284
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R42
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/cacheline_adaptor.sv|
+!i113 1
+R16
+R35
+R18
+vcmp
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 11 cmp_sv_unit 0 22 dZ^2^Df;?]ZTGoaogiKIe2
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 Qhi1@0E8lW9[A:K1If<^g3
+IQHmjoIIc7UkfJ5UG6oaJd3
+!s105 cmp_sv_unit
+S1
+R0
+R9
+Z45 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv
+Z46 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv
+L0 3
+R12
+R22
+Z47 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv|
+Z48 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/cmp.sv|
+!i113 1
+R16
+R17
+R18
+Xcmp_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VdZ^2^Df;?]ZTGoaogiKIe2
+r1
+!s85 0
+31
+!i10b 1
+!s100 je4M;`@YUX0JSf?PjC:j60
+IdZ^2^Df;?]ZTGoaogiKIe2
+!i103 1
+S1
+R0
+R9
+R45
+R46
+L0 1
+R12
+R22
+R47
+R48
+!i113 1
+R16
+R17
+R18
+Xcmpmux
+R1
+R25
+!i10b 1
+!s100 cAk71H_]9:L<KP3:Tmn`h3
+IKSheYLi]4Ui`44^o7maUo1
+VKSheYLi]4Ui`44^o7maUo1
+S1
+R0
+R9
+R26
+R27
+L0 18
+R12
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R16
+R31
+R18
+vcpu
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 11 cpu_sv_unit 0 22 11]:1coeXLml0T6hH?Snn1
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 _m9Inj3f]O]82J4]M^JU`0
+IU1dZ@U][jGH^ZDLbdI8Z?0
+!s105 cpu_sv_unit
+S1
+R0
+Z49 w1607561941
+Z50 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv
+Z51 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv
+L0 3
+R12
+Z52 !s108 1607562691.000000
+Z53 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv|
+Z54 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/cpu.sv|
+!i113 1
+R16
+R17
+R18
+Xcpu_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+V11]:1coeXLml0T6hH?Snn1
+r1
+!s85 0
+31
+!i10b 1
+!s100 TVOXGA@KmXRX;PJ_HJ3W?3
+I11]:1coeXLml0T6hH?Snn1
+!i103 1
+S1
+R0
+R49
+R50
+R51
+L0 1
+R12
+R52
+R53
+R54
+!i113 1
+R16
+R17
+R18
+vdata_array
+R1
+R44
+!i10b 1
+!s100 I;Qe=c8STUznl90>zI2g60
+IaVQ=^WXb[_Gi7bhbC44cz2
+R8
+!s105 data_array_sv_unit
+S1
+R0
+w1607558625
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R43
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/data_array.sv|
+!i113 1
+R16
+R35
+R18
+vdecoder
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 15 decoder_sv_unit 0 22 a;XfGH1DYc3iibk`AT=Qk2
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 0EK^CHH^UdZRkL_7Elz3N1
+I5ojo1K]Qbe[dMm_M<=_7G3
+!s105 decoder_sv_unit
+S1
+R0
+R19
+Z55 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv
+Z56 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv
+Z57 L0 12
+R12
+R22
+Z58 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv|
+Z59 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/decoder.sv|
+!i113 1
+R16
+R17
+R18
+Xdecoder_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Va;XfGH1DYc3iibk`AT=Qk2
+r1
+!s85 0
+31
+!i10b 1
+!s100 b]f]TG47IaZ1laf0z=Y6X2
+Ia;XfGH1DYc3iibk`AT=Qk2
+!i103 1
+S1
+R0
+R19
+R55
+R56
+L0 1
+R12
+R22
+R58
+R59
+!i113 1
+R16
+R17
+R18
+vfetch
+R1
+R25
+!i10b 1
+!s100 AYFMHTO:hNQU0GYaUW:^d3
+IKT6hNT17;EkoNhz:NHZC?1
+R8
+!s105 fetch_sv_unit
+S1
+R0
+w1607561646
+8/home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R28
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/fetch.sv|
+!i113 1
+R16
+R17
+R18
+vinstruction_queue
+R1
+R25
+!i10b 1
+!s100 gg_2]`R2b?R6H_:mo;@ZU3
+IjkZ;o[BX<a^_[SjokV]G91
+R8
+!s105 instruction_queue_sv_unit
+S1
+R0
+w1607561927
+8/home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv
+L0 9
+R12
+r1
+!s85 0
+31
+R28
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/instruction_queue.sv|
+!i113 1
+R16
+R17
+R18
+vLDST_reservation_station
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 32 LDST_reservation_station_sv_unit 0 22 ?<LhX3k<11E5]2^UoN]bh3
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 O`W`oC677hTV15DV74hNH0
+IZ>bMX1@Vd4>RKO0062Ujo3
+!s105 LDST_reservation_station_sv_unit
+S1
+R0
+R19
+Z60 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv
+Z61 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv
+L0 3
+R12
+R13
+Z62 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv|
+Z63 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/LDST_reservation_station.sv|
+!i113 1
+R16
+R17
+R18
+n@l@d@s@t_reservation_station
+XLDST_reservation_station_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+V?<LhX3k<11E5]2^UoN]bh3
+r1
+!s85 0
+31
+!i10b 1
+!s100 AAK[<H8a<BQYB_K]8`]eP2
+I?<LhX3k<11E5]2^UoN]bh3
+!i103 1
+S1
+R0
+R19
+R60
+R61
+L0 1
+R12
+R13
+R62
+R63
+!i113 1
+R16
+R17
+R18
+n@l@d@s@t_reservation_station_sv_unit
+vline_adapter
+R1
+R44
+!i10b 1
+!s100 N64hadHN][zLfMTEZmfba1
+IFI^=nD>I20Vd;9VGhVEm[3
+R8
+!s105 line_adapter_sv_unit
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R42
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/line_adapter.sv|
+!i113 1
+R16
+R35
+R18
+vmagic_memory_dp
+R1
+!s110 1607562692
+!i10b 1
+!s100 @nOl6:m[3D6XThc7@I`?50
+I7jkkdD655I]o?cDe=?`EB2
+R8
+!s105 magic_dual_port_sv_unit
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv
+L0 6
+R12
+r1
+!s85 0
+31
+Z64 !s108 1607562692.000000
+!s107 /home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/magic_dual_port.sv|
+!i113 1
+R16
+Z65 !s92 -sv -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl
+R18
+vmain_cache
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 18 main_cache_sv_unit 0 22 G`7;mkmlI6AM^;fRbeO8o1
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 149bjBz4HU6nW]KTMFz5l2
+InLNFee?iHiDNe@jRF[kS43
+!s105 main_cache_sv_unit
+S1
+R0
+Z66 w1607546760
+Z67 8/home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv
+Z68 F/home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv
+L0 3
+R12
+Z69 !s108 1607562688.000000
+Z70 !s107 /home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv|
+Z71 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/given_cache|/home/nikhila4/C_over_Python/mp4/hdl/given_cache/main_cache.sv|
+!i113 1
+R16
+R35
+R18
+Xmain_cache_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VG`7;mkmlI6AM^;fRbeO8o1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :FGOE1i25LLOBd5PCaKEU0
+IG`7;mkmlI6AM^;fRbeO8o1
+!i103 1
+S1
+R0
+R66
+R67
+R68
+L0 1
+R12
+R69
+R70
+R71
+!i113 1
+R16
+R35
+R18
+Xmarmux
+R1
+R25
+!i10b 1
+!s100 dJGT8NKK9e0I?174EI1e[3
+I5D50JZKSXK6DA8oE=5L6V2
+V5D50JZKSXK6DA8oE=5L6V2
+S1
+R0
+R9
+R26
+R27
+Z72 L0 11
+R12
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R16
+R31
+R18
+vmem_mux
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 15 mem_mux_sv_unit 0 22 2U;GVE5A;0>6<:PbC_5JL0
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 7oj?oU8eAV4fBmd>SWj@c3
+I>Hzb0?mHlOm5`2=dL0:J02
+!s105 mem_mux_sv_unit
+S1
+R0
+R9
+Z73 8/home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv
+Z74 F/home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv
+L0 3
+R12
+R69
+Z75 !s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv|
+Z76 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/mem_mux.sv|
+!i113 1
+R16
+R17
+R18
+Xmem_mux_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+V2U;GVE5A;0>6<:PbC_5JL0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [ekiWiFX76zSkO;AUEfGE0
+I2U;GVE5A;0>6<:PbC_5JL0
+!i103 1
+S1
+R0
+R9
+R73
+R74
+L0 1
+R12
+R69
+R75
+R76
+!i113 1
+R16
+R17
+R18
+vmp4
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DXx4 work 11 mp4_sv_unit 0 22 FS@eRa82A27cI1;b`iQCl0
+R8
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;;7:W854^on4Q;WIAK7^:3
+Ikkk4n;>]T;Y>8aaQVo`QP2
+!s105 mp4_sv_unit
+S1
+R0
+R19
+Z77 8/home/nikhila4/C_over_Python/mp4/hdl/mp4.sv
+Z78 F/home/nikhila4/C_over_Python/mp4/hdl/mp4.sv
+L0 3
+R12
+R52
+Z79 !s107 /home/nikhila4/C_over_Python/mp4/hdl/mp4.sv|
+Z80 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl|/home/nikhila4/C_over_Python/mp4/hdl/mp4.sv|
+!i113 1
+R16
+R31
+R18
+Xmp4_sv_unit
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+VFS@eRa82A27cI1;b`iQCl0
+r1
+!s85 0
+31
+!i10b 1
+!s100 @QCQ]GQ680E7<I=D?jk4D1
+IFS@eRa82A27cI1;b`iQCl0
+!i103 1
+S1
+R0
+R19
+R77
+R78
+L0 1
+R12
+R52
+R79
+R80
+!i113 1
+R16
+R31
+R18
+vmp4_tb
+R1
+!s110 1607562691
+!i10b 1
+!s100 A1PzkC6PRcf3:4dgI:E1F3
+I2]D29F1lfD;h2mY_a8SV10
+R8
+!s105 top_sv_unit
+S1
+R0
+R19
+8/home/nikhila4/C_over_Python/mp4/hvl/top.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/top.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R52
+!s107 /home/nikhila4/C_over_Python/mp4/hvl/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/top.sv|
+!i113 1
+R16
+R65
+R18
+vParamMemory
+R1
+Z81 !s110 1607562693
+!i10b 1
+!s100 TLOH614eob5IzbI@^9`7d1
+I3cKlX;bW144UDOoSB_;eG2
+R8
+!s105 param_memory_sv_unit
+S1
+R0
+R19
+8/home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv
+R72
+R12
+r1
+!s85 0
+31
+R64
+!s107 /home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/param_memory.sv|
+!i113 1
+R16
+R65
+R18
+n@param@memory
+Xpcmux
+R1
+R25
+!i10b 1
+!s100 0OZaB6GLcn1S9A:AKjz>?3
+IZb4=bz:[zDM0ENC]O6;IG0
+VZb4=bz:[zDM0ENC]O6;IG0
+S1
+R0
+R9
+R26
+R27
+L0 3
+R12
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R16
+R31
+R18
+vregfile
+R1
+R25
+!i10b 1
+!s100 SO0__2eKkKb6o@CRV=]6Q2
+ID4Phg5JcMVW<T8?NPeP`H2
+R8
+!s105 regfile_sv_unit
+S1
+R0
+R19
+8/home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R28
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/regfile.sv|
+!i113 1
+R16
+R17
+R18
+Xregfilemux
+R1
+R25
+!i10b 1
+!s100 Rk3aDPhQSHYl0Dg:=`DcV1
+Inch]VA`O?aQ8gfJH>baBk1
+Vnch]VA`O?aQ8gfJH>baBk1
+S1
+R0
+R9
+R26
+R27
+L0 41
+R12
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R16
+R31
+R18
+vreorder_buffer
+R1
+R32
+!i10b 1
+!s100 4Fz2W8mI77cWHIFelPONO3
+IA6fMQE];b_9ic>eI<RWCK3
+R8
+!s105 reorder_buffer_sv_unit
+S1
+R0
+R19
+8/home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R34
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl/cpu|/home/nikhila4/C_over_Python/mp4/hdl/cpu/reorder_buffer.sv|
+!i113 1
+R16
+R17
+R18
+vriscv_formal_monitor_rv32imc
+R81
+!i10b 1
+!s100 U?]gj^aHdcEGWFYG8d]0:3
+IDmmAz^X2e@Rg8eES^C@Ck1
+R8
+R0
+R9
+Z82 8/home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v
+Z83 F/home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v
+L0 5
+R12
+r1
+!s85 0
+31
+Z84 !s108 1607562693.000000
+Z85 !s107 /home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v|
+Z86 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/rvfimon.v|
+!i113 1
+Z87 o-vlog01compat -work work
+Z88 !s92 -vlog01compat -work work +incdir+/home/nikhila4/C_over_Python/mp4/hvl
+R18
+vriscv_formal_monitor_rv32imc_insn_add
+R81
+!i10b 1
+!s100 KfK2[L:AI1f4K609<HTk42
+IjgdFiF@OniYMG>1Y[Pf[P1
+R8
+R0
+R9
+R82
+R83
+L0 3481
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_addi
+R81
+!i10b 1
+!s100 B:4Knj[Ia_CHPW??GiRnO3
+I1;VIZWQfJ`5[CblLlm?RI2
+R8
+R0
+R9
+R82
+R83
+L0 3532
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_and
+R81
+!i10b 1
+!s100 7ej7FRHcUm4YDNLofWj1@1
+Ic5OTdJoGVY_H:Xzoa3W6]2
+R8
+R0
+R9
+R82
+R83
+L0 3582
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_andi
+R81
+!i10b 1
+!s100 c1@UIA<T::F5f1??YkPD91
+IzN<h30E_<=Y5oJQRID7nX1
+R8
+R0
+R9
+R82
+R83
+L0 3633
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_auipc
+R81
+!i10b 1
+!s100 JGHVA^[iZOMz4AHQI^0a_3
+I@B4d7Q[MGIINM_]UaD4C[1
+R8
+R0
+R9
+R82
+R83
+L0 3683
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_beq
+R81
+!i10b 1
+!s100 jD`eZ8AMfU^d=HZ93nM_C2
+IJ2K=MM@X^edOf1M2KVR7S2
+R8
+R0
+R9
+R82
+R83
+L0 3730
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_bge
+R81
+!i10b 1
+!s100 33UnJ<[CbSdDMM`LGGam80
+Ine_V2@d]4ld6cA>TXFeYi2
+R8
+R0
+R9
+R82
+R83
+L0 3782
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_bgeu
+R81
+!i10b 1
+!s100 DfB_2jleaJz[mddncn<VD3
+IRzMT7fU3HR6?TEL[if;Wg0
+R8
+R0
+R9
+R82
+R83
+L0 3834
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_blt
+R81
+!i10b 1
+!s100 1EZSZEcKC8HXPAn1GB?hT0
+INz?1Gkc^f?[8E7V[BdDWX3
+R8
+R0
+R9
+R82
+R83
+L0 3886
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_bltu
+R81
+!i10b 1
+!s100 Dd9gO]3?Y4YWJH7SVdGZ51
+I_aE9f`Cd:Z3NB53^zGkzh3
+R8
+R0
+R9
+R82
+R83
+L0 3938
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_bne
+R81
+!i10b 1
+!s100 NlDEIZc?8aSA4dfWfn@b22
+I6dR4BO7U[a0?aPAeY4CE=3
+R8
+R0
+R9
+R82
+R83
+L0 3990
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_add
+R81
+!i10b 1
+!s100 K6<<4j]Aa5Q_EK46gmegR2
+IA13fm6edPg7A[B]UCmd4B0
+R8
+R0
+R9
+R82
+R83
+L0 4042
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_addi
+R81
+!i10b 1
+!s100 IQ3cG[?gN@nPPl4i@ULd70
+I7TKFMjbnEMdNaV=:<[ZKz0
+R8
+R0
+R9
+R82
+R83
+L0 4091
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_addi16sp
+R81
+!i10b 1
+!s100 >3GdEI?CfAVNAh?M59fH70
+I;:;Wl>W2<YTZShgGzie[;0
+R8
+R0
+R9
+R82
+R83
+L0 4140
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_addi4spn
+R81
+!i10b 1
+!s100 V:C<BVh>X=:Lh5ZddHo@z0
+IY18ECDoEXzN=YQ]ia^dRL3
+R8
+R0
+R9
+R82
+R83
+L0 4189
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_and
+R81
+!i10b 1
+!s100 4o6@UYQ9e5z@DGUG1Ch]41
+IbN]3@8X^4nTkWS4hF:HTh3
+R8
+R0
+R9
+R82
+R83
+L0 4238
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_andi
+R81
+!i10b 1
+!s100 ZIPAmc63OB?jXSH4mZ4``1
+ID>T_QkU@JT2ET<1cOhN3a0
+R8
+R0
+R9
+R82
+R83
+L0 4288
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_beqz
+R81
+!i10b 1
+!s100 ]Lm?H8MV4oE0n3bL]Sk?h0
+I422kzJX;J[<TQHCg>P<5D0
+R8
+R0
+R9
+R82
+R83
+L0 4338
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_bnez
+R81
+!i10b 1
+!s100 S`MaY_J@Lai=NAWc9HWZh0
+ISflJOU0X?`;i]o@[I0k4N0
+R8
+R0
+R9
+R82
+R83
+L0 4388
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_j
+R81
+!i10b 1
+!s100 hFdS4X:LTYRBYODV6K`L53
+ISV@7f?RACQiGfAC;WdR3[3
+R8
+R0
+R9
+R82
+R83
+L0 4438
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_jal
+R81
+!i10b 1
+!s100 <6m28Old5K[DPh;d6E4[30
+ImALAlG4?:Q`H3<7z3GH<I1
+R8
+R0
+R9
+R82
+R83
+L0 4487
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_jalr
+R81
+!i10b 1
+!s100 [n5_BOoZm5k8eEX[OGR:T3
+I=ai58lUnPE2EfzG@bOkE:2
+R8
+R0
+R9
+R82
+R83
+L0 4536
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_jr
+R81
+!i10b 1
+!s100 N`]J`T@WXHM?>;aD`VP@P1
+IzG=ih?]ZO:RGl7=0cI:?01
+R8
+R0
+R9
+R82
+R83
+L0 4585
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_li
+R81
+!i10b 1
+!s100 40Ug7ogJ5PCk7>6fSPZY=0
+I210]9l_ITJiJ7d<Vz80Pe3
+R8
+R0
+R9
+R82
+R83
+L0 4634
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_lui
+R81
+!i10b 1
+!s100 Q87Bz5Gz2cVdW4ECG<V5[2
+Il7>QiKeMdG3V:I>BG[QX]3
+R8
+R0
+R9
+R82
+R83
+L0 4683
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_lw
+R81
+!i10b 1
+!s100 kAD9o0nGYkNVg^K@fJOMV2
+IS49gJEo1MU_aYofkIYV9o0
+R8
+R0
+R9
+R82
+R83
+L0 4732
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_lwsp
+R81
+!i10b 1
+!s100 4C<S2`i<ICb^ggSEFHn9B0
+I`1`c352Z10kjA6UBa>TY^2
+R8
+R0
+R9
+R82
+R83
+L0 4783
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_mv
+R81
+!i10b 1
+!s100 ?Zdakcc?;ZWeh=Y6`5T_H3
+IHJE:WkW:[8BgO@Ccfo`=73
+R8
+R0
+R9
+R82
+R83
+L0 4833
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_or
+R81
+!i10b 1
+!s100 V3@F1l7e_6Gg@:Qha:m412
+IS8B4f67AD5E]YU_D95_B70
+R8
+R0
+R9
+R82
+R83
+L0 4882
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_slli
+R81
+!i10b 1
+!s100 EhXfDaTHSj?Wl[XPCgDL_2
+IHf>3O^LaT5d<Pmi?>OikH0
+R8
+R0
+R9
+R82
+R83
+L0 4932
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_srai
+R81
+!i10b 1
+!s100 ?OT?WR6PTOnzEnnPbKk@91
+IJH7MPX4ifoUGeV>BQ`kbZ0
+R8
+R0
+R9
+R82
+R83
+L0 4981
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_srli
+R81
+!i10b 1
+!s100 F>nAlKB<3R0kDag4<C]Qb3
+INN_nK5OO@c5cl9Se[UXg72
+R8
+R0
+R9
+R82
+R83
+L0 5031
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_sub
+R81
+!i10b 1
+!s100 nzTT2EV15jaQLfFE;a9ka1
+ISS8j8mi3co9I[@blhZMP_2
+R8
+R0
+R9
+R82
+R83
+L0 5081
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_sw
+R81
+!i10b 1
+!s100 _goURe:`<BJIPejnn2RVX0
+I?F;j3BNY1B@XBdHc5I5Ae1
+R8
+R0
+R9
+R82
+R83
+L0 5131
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_swsp
+R81
+!i10b 1
+!s100 kBmcg>WkmPj]aL=LcozBV1
+IY^YHmXbia4=RhFgAKA2:D3
+R8
+R0
+R9
+R82
+R83
+L0 5181
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_c_xor
+R81
+!i10b 1
+!s100 DHNGjQTa?LmhJWEFK:GO^2
+I4kWNmaL^G6iZ:CX6:Q4hl1
+R8
+R0
+R9
+R82
+R83
+L0 5230
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_div
+R81
+!i10b 1
+!s100 7PTiWzidLbbL^P`3k<`1J2
+IJ3coz2YfM6D@k<9niR=>[1
+R8
+R0
+R9
+R82
+R83
+L0 5280
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_divu
+R81
+!i10b 1
+!s100 J4Za;DzZE8WQ7`o1dcz3U0
+IFhnjn7ZA54`Ca1og0DiFc0
+R8
+R0
+R9
+R82
+R83
+L0 5333
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_jal
+R81
+!i10b 1
+!s100 LCJ1kIJk<_bCFcgD`^R^Q3
+I=<F91^IkBZokjIaSalA^S0
+R8
+R0
+R9
+R82
+R83
+L0 5385
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_jalr
+R81
+!i10b 1
+!s100 TNYkXDF`4:2UHHZXO7Nj41
+IdR:f:Z;Yz_@H[?7G5c9931
+R8
+R0
+R9
+R82
+R83
+L0 5434
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lb
+R81
+!i10b 1
+!s100 XS=QTUf^4]4cJn]H[eXaT0
+Ig5PYkF@WTLInWY6aZEEBD3
+R8
+R0
+R9
+R82
+R83
+L0 5485
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lbu
+R81
+!i10b 1
+!s100 fb2RVNkYb1he[oE?jhF752
+I2VDegG@c]QK1zc_EORz3X1
+R8
+R0
+R9
+R82
+R83
+L0 5536
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lh
+R81
+!i10b 1
+!s100 dmjQaTZmd5eocfo]d;QeT2
+IAm1lJDCH4JjSiI72gI7W=0
+R8
+R0
+R9
+R82
+R83
+L0 5587
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lhu
+R81
+!i10b 1
+!s100 m7S^AjRVmLS7PB6Zkl`JS0
+ILHTlQT98TKMNILBzZDc[Z2
+R8
+R0
+R9
+R82
+R83
+L0 5638
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lui
+R81
+!i10b 1
+!s100 <AoAoB8[k9mBc0hGCf1RC3
+IfORm6E5EO]D@Pc]nX6_Wf3
+R8
+R0
+R9
+R82
+R83
+L0 5689
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_lw
+R81
+!i10b 1
+!s100 5g9hF@l?M>OVg^7;za7jF2
+IFEGlKeinn1l`TbOLQ@7k40
+R8
+R0
+R9
+R82
+R83
+L0 5736
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_mul
+R81
+!i10b 1
+!s100 hddl[S6191h`N<oK4Xi>H2
+ImKAGo_PK3B;?9VjE7j4JJ1
+R8
+R0
+R9
+R82
+R83
+L0 5787
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_mulh
+R81
+!i10b 1
+!s100 ZW6cFUlgPicX@DR3?d;D13
+I[EMD9z@>W9foPEDbYETii2
+R8
+R0
+R9
+R82
+R83
+L0 5838
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_mulhsu
+R81
+!i10b 1
+!s100 PDL`HCGjhHh_do@0A9QQ03
+I;RkTYLTPK3kU?Bg_jY4c?1
+R8
+R0
+R9
+R82
+R83
+L0 5890
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_mulhu
+R81
+!i10b 1
+!s100 Uz<]:f_I4;;S^SaMoVN^<3
+ID7Y^=?XRnXIA6?MfFPl953
+R8
+R0
+R9
+R82
+R83
+L0 5942
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_or
+R81
+!i10b 1
+!s100 E[TG^CZM=I@YJC[kHhQ;E0
+IRAd`jb?aIYC3AJbdP050Q3
+R8
+R0
+R9
+R82
+R83
+L0 5993
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_ori
+R81
+!i10b 1
+!s100 AzNDWBYRkn;:=l<7Azll61
+IPi`;]YjAnmL[SU=BI`]3b2
+R8
+R0
+R9
+R82
+R83
+L0 6044
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_rem
+R81
+!i10b 1
+!s100 RmFV7m]BfjSZ?Ik59@B3a1
+IiXcfX85:>3nAN_DD^OaNR3
+R8
+R0
+R9
+R82
+R83
+L0 6094
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_remu
+R81
+!i10b 1
+!s100 ]RKDKIFz`KJ6cM<blXJ?k3
+ID]0UR2f2P14Y^[Lg4IdGn0
+R8
+R0
+R9
+R82
+R83
+L0 6147
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sb
+R81
+!i10b 1
+!s100 h:EMQR[9YR@kkaCNdVk=R1
+I=>8WFOMgmS=B_SN8S6e1G1
+R8
+R0
+R9
+R82
+R83
+L0 6199
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sh
+R81
+!i10b 1
+!s100 RQ<nQbF0z4G^WahnAW[hd3
+I?Q=ZZK[0P?8W?XoKS_RB73
+R8
+R0
+R9
+R82
+R83
+L0 6249
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sll
+R81
+!i10b 1
+!s100 S=^go?oL`fd[>03j^6aAC3
+IL46zl5`M?oY?EjLSDNOko0
+R8
+R0
+R9
+R82
+R83
+L0 6299
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_slli
+R81
+!i10b 1
+!s100 >D3ZLo1_V=EaeHjdVIYQV2
+IR2C`We?oSmH]Od`8=XL@T0
+R8
+R0
+R9
+R82
+R83
+L0 6351
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_slt
+R81
+!i10b 1
+!s100 419X2=egU^hK5fSAC_a:>3
+IlZ^Nbk2h6>Yo<Y[LL;f<O3
+R8
+R0
+R9
+R82
+R83
+L0 6402
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_slti
+R81
+!i10b 1
+!s100 :LM:5IO?Dj5]S1heN<0d^0
+IEBZg:GRX^6^@E:>lIYWEe3
+R8
+R0
+R9
+R82
+R83
+L0 6453
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sltiu
+R81
+!i10b 1
+!s100 ]TC<kVWz5G43`QFeX5oh92
+I[Dl2dHl0C;_JmSX1j`laP2
+R8
+R0
+R9
+R82
+R83
+L0 6503
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sltu
+R81
+!i10b 1
+!s100 maeFQBN8Jm33>>g^^a@nU1
+IW:]nTNbW6@=3kDP]J25`20
+R8
+R0
+R9
+R82
+R83
+L0 6553
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sra
+R81
+!i10b 1
+!s100 4g5J94Ud4;TIPaMMD;^U80
+I7dNghjC@klZ^O:PDKD02;2
+R8
+R0
+R9
+R82
+R83
+L0 6604
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_srai
+R81
+!i10b 1
+!s100 2106>cEnFDn[hLJDD3nQ?1
+IOXUQN9J5z1PmHNoP`N8^S1
+R8
+R0
+R9
+R82
+R83
+L0 6656
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_srl
+R81
+!i10b 1
+!s100 G>_^X0`;4Sz11WooW=;?K3
+IUE2_3SzeKC0jbRSSLbAe92
+R8
+R0
+R9
+R82
+R83
+L0 6707
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_srli
+R81
+!i10b 1
+!s100 _]:boS`UVThGTa=AT=CCz3
+II];Chh1hP>^<cdYoPO7]z1
+R8
+R0
+R9
+R82
+R83
+L0 6759
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sub
+R81
+!i10b 1
+!s100 8=LeL6QLTEGIV7Tlc1LFH2
+IS[BXHfa3TOS1WBid5BG<n0
+R8
+R0
+R9
+R82
+R83
+L0 6810
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_sw
+R81
+!i10b 1
+!s100 ]1LMSj<Xh2ZHgG=L>89`A2
+IiCXo11Si:WFDeh<^13i<Z3
+R8
+R0
+R9
+R82
+R83
+L0 6861
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_xor
+R81
+!i10b 1
+!s100 @DBQbGX0=2M;6zjUNFCAc0
+Ii?>ZfI]oOkG4I6Q86^GnP2
+R8
+R0
+R9
+R82
+R83
+L0 6911
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_insn_xori
+R81
+!i10b 1
+!s100 0ZQRgTQP5MB=mRXA4V^lO0
+I>B0gFKOJhY9WUNNekf5Jk0
+R8
+R0
+R9
+R82
+R83
+L0 6962
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_isa_spec
+R81
+!i10b 1
+!s100 5RZ>>H>3jYn7TemZ`2:VO2
+I=_`lo_VFDI<TXLIDC^fG?2
+R8
+R0
+R9
+R82
+R83
+L0 436
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+vriscv_formal_monitor_rv32imc_rob
+R81
+!i10b 1
+!s100 Bad>2S9;RIg2]WlkMbNXT2
+IK6golb5eOH@TiVEA>8T@^0
+R8
+R0
+R9
+R82
+R83
+L0 389
+R12
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 1
+R87
+R88
+R18
+Xrv32i_types
+R1
+R2
+R3
+R4
+R5
+R6
+!s110 1607562688
+!i10b 1
+!s100 co?im?;]mHQE]k402_;D`0
+IE2WKT[SQ6ZPm;4[S39nUi3
+VE2WKT[SQ6ZPm;4[S39nUi3
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv
+F/home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv
+L0 1
+R12
+r1
+!s85 0
+31
+R28
+!s107 /home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hdl|/home/nikhila4/C_over_Python/mp4/hdl/rv32i_types.sv|
+!i113 1
+R16
+R31
+R18
+Yrvfi_itf
+R1
+R81
+!i10b 1
+!s100 2b=S1=JJ:=R=::Dj?g9Ee3
+Ih>4h>38:R2?:8V?7TTaUS0
+R8
+!s105 rvfi_itf_sv_unit
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv
+L0 4
+R12
+r1
+!s85 0
+31
+R84
+!s107 /home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/rvfi_itf.sv|
+!i113 1
+R16
+R65
+R18
+vshadow_memory
+R1
+R81
+!i10b 1
+!s100 RLf6B4_8TgNHLe`G>JV>a1
+I3m:Vz70_RD1kURbdS_ED11
+R8
+!s105 shadow_memory_sv_unit
+S1
+R0
+R9
+8/home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv
+L0 4
+R12
+r1
+!s85 0
+31
+R84
+!s107 /home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/shadow_memory.sv|
+!i113 1
+R16
+R65
+R18
+vsource_tb
+R1
+Z89 !s110 1607562694
+!i10b 1
+!s100 m4LaC3Q;o1@BFiHh8]RMJ1
+I<`la``[8UX_8XXjddac]?3
+R8
+Z90 !s105 source_tb_sv_unit
+S1
+R0
+R19
+8/home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv
+L0 14
+R12
+r1
+!s85 0
+31
+R84
+Z91 !s107 /home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv|/home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv|
+Z92 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/nikhila4/C_over_Python/mp4/hvl|/home/nikhila4/C_over_Python/mp4/hvl/source_tb.sv|
+!i113 1
+R16
+R65
+R18
+Ytb_itf
+R1
+R89
+!i10b 1
+!s100 YknjM5:fCXO4jfKY2MY0l2
+I=WREFjl]B[m^JOkd1mngP0
+R8
+R90
+S1
+R0
+R33
+8/home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv
+F/home/nikhila4/C_over_Python/mp4/hvl/tb_itf.sv
+R57
+R12
+r1
+!s85 0
+31
+R84
+R91
+R92
+!i113 1
+R16
+R65
+R18
