@@ -33,6 +33,8 @@ IQ iq[iq_size-1:0];
 logic [iq_index_bit-1:0] iq_tail, iq_head, iq_tail_next, iq_head_next;
 logic iq_full, iq_flag;
 logic iq_load_full;
+logic [31:0] instructions_total, instructions_total_next;
+logic [31:0] iq_full_count, iq_full_count_next;
 
 always_ff @ (posedge clk)begin
     if (rst)
@@ -54,10 +56,8 @@ assign load_dec_iq = ~iq_empty;
 assign instruction_iq_head = iq[iq_head].instruction;
 assign PC_iq_head = iq[iq_head].PC;
 
-// always_ff @(posedge clk) begin
-//   if(iq_really_full) 
-//     $display("In iq", $time, instruction_iq_head);
-// end
+assign instructions_total_next = load_iq_fetch ? instructions_total + 32'd1 : instructions_total;
+assign iq_full_count_next = (iq_tail == iq_head-4'd1) ? iq_full_count + 32'd1 : iq_full_count;
 
 always_ff @(posedge clk) 
 begin
@@ -65,12 +65,18 @@ begin
         iq_head <= '0;
         iq_tail <= '0;
         iq_flag <= '0;
+        if (rst || ~flush_iq_fetch) begin
+            instructions_total <= '0;
+            iq_full_count <= '0;
+        end
         for (int i=0; i<iq_size; i=i+1) 
             iq[i] <= '0;
     end
     else begin
         iq_head <= iq_head_next;
         iq_tail <= iq_tail_next;
+        instructions_total <= instructions_total_next;
+        iq_full_count <= iq_full_count_next;
         // iq_flag <= iq_full  && load_iq_fetch;
         if (~iq_flag && load_iq_fetch && iq_full)
             iq_flag <= 1;

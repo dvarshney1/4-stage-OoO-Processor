@@ -48,11 +48,14 @@ endgenerate
 logic [alu_rs_index_bits-1:0] widx_alurs_next;
 logic [alu_rs_size-1: 0] alu_rs_bitmap, alu_rs_bitmap_next;
 logic alurs_empty;
+logic [31:0] alu_rs_total, alu_rs_total_next;
+logic [31:0] alu_rs_full_count, alu_rs_full_count_next;
 
 assign alurs_full = (alu_rs_bitmap == -1);
 // assign alurs_full = (alu_rs_bitmap == -1) && (done_alurs == '0); make this work
 assign alurs_empty = (alu_rs_bitmap == 0);
-
+assign alu_rs_total_next = load_alurs_dec ? alu_rs_total + 1 : alu_rs_total;
+assign alu_rs_full_count_next = (alu_rs_bitmap == -1) ? alu_rs_full_count + 32'd1 : alu_rs_full_count;
 
 always_comb begin : done_alu_operation
     for (int j=0; j<alu_rs_size; j=j+1)
@@ -97,6 +100,8 @@ always_ff @(posedge clk) begin
     if(rst) begin
         alu_rs_bitmap <= '0;
         widx_alurs <= '0;
+        alu_rs_total <= '0;
+        alu_rs_full_count <= '0;
         for (int j=0; j<alu_rs_size; j=j+1) begin
             alu_rs[j] <= '0;
         end
@@ -104,6 +109,8 @@ always_ff @(posedge clk) begin
     else begin
         alu_rs_bitmap <= alu_rs_bitmap_next;
         widx_alurs <= widx_alurs_next;
+        alu_rs_total <= alu_rs_total_next;
+        alu_rs_full_count <= alu_rs_full_count_next;
         for (int j=0; j<alu_rs_size; j=j+1) begin
             alu_rs[j] <= alu_rs_next[j];
         end

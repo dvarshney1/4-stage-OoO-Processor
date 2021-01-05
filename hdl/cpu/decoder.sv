@@ -80,6 +80,9 @@ logic [4:0] rs2;
 logic [4:0] rd;
 logic trap;
 
+logic current_cycle_has_branch, current_cycle_branch; 
+logic [31:0] total_branches;
+
 branch_funct3_t branch_funct3;
 store_funct3_t store_funct3;
 load_funct3_t load_funct3;
@@ -131,6 +134,7 @@ function void set_defaults();
   load_lsrs_dec = '0;
   full_dec = '0;
   trap = '0;
+  current_cycle_has_branch = '0;
 endfunction: set_defaults
 
 
@@ -153,6 +157,7 @@ always_comb begin : decode_instructions
                       v2_dec = 1;
                       aluop_dec = alu_add;
                       rsidx_rs = widx_alurs;
+                      current_cycle_has_branch = 0;
                       if(~rob_really_full && ~alurs_full) begin
                         load_alurs_dec=1;
                         load_rob_dec=1;
@@ -170,6 +175,7 @@ always_comb begin : decode_instructions
                           v2_dec = 1;
                           aluop_dec = alu_add;
                           rsidx_rs = widx_alurs;
+                          current_cycle_has_branch = 0;
                           if(~rob_really_full && ~alurs_full) begin
                             load_alurs_dec=1;
                             load_rob_dec=1;
@@ -185,6 +191,7 @@ always_comb begin : decode_instructions
                       opB_dec =  i_imm;
                       v1_dec = rs1_v;
                       v2_dec = 1;
+                      current_cycle_has_branch = 0;
                       unique case (arith_funct3)
                         add: aluop_dec = alu_add;
                         sll: aluop_dec = alu_sll;
@@ -216,6 +223,7 @@ always_comb begin : decode_instructions
                       opB_dec =  rs2_out;
                       v1_dec = rs1_v;
                       v2_dec = rs2_v;
+                      current_cycle_has_branch = 0;
                       unique case (arith_funct3)
                         add: begin
                             if(funct7[5]) aluop_dec = alu_sub;
@@ -250,6 +258,7 @@ always_comb begin : decode_instructions
               opA_dec =  rs1_out;
               v1_dec = rs1_v;
               imm_dec = i_imm;
+              current_cycle_has_branch = 0;
               unique case (load_funct3)
                   lw: memop_dec = mem_lw;
                   lh: memop_dec = mem_lh;
@@ -275,6 +284,7 @@ always_comb begin : decode_instructions
               v1_dec = rs1_v;
               v2_dec = rs2_v;
               imm_dec = s_imm;
+              current_cycle_has_branch = 0;
               unique case (store_funct3)
                   sw: memop_dec = mem_sw;
                   sh: memop_dec = mem_sh;
@@ -311,6 +321,8 @@ always_comb begin : decode_instructions
                   v3_br_dec = 1;
                   cmpop_dec = beq;
 
+                  current_cycle_has_branch = 1;
+
                   if(~rob_really_full && ~alurs_full) begin
                     load_alurs_dec=1;
                     load_rob_dec=1;
@@ -341,6 +353,8 @@ always_comb begin : decode_instructions
                   v3_br_dec = rs1_v;
                   cmpop_dec = beq;
 
+                  current_cycle_has_branch = 1;
+
                   if(~rob_really_full && ~alurs_full) begin
                     load_alurs_dec=1;
                     load_rob_dec=1;
@@ -362,6 +376,8 @@ always_comb begin : decode_instructions
                   v3_br_dec = 1;
                   cmpop_dec = branch_funct3;
 
+                  current_cycle_has_branch = 1;
+
                   // if(~rob_really_full && ~alurs_full) begin
                     // load_alurs_dec=1;
                     // load_rob_dec=1;
@@ -373,6 +389,7 @@ always_comb begin : decode_instructions
                   /* TODO: set PC = output of op_br*/
           end
           default: begin 
+            current_cycle_has_branch = 0;
             $display("Incorrect Opcode Selected");
             trap = 1;
           end
@@ -381,6 +398,19 @@ always_comb begin : decode_instructions
     else if (brrs_full) begin //allows to stall till brnach is resolved (change later)
       full_dec = 1;
     end
+end
+
+always_ff @(posedge clk) 
+begin
+  if (rst) begin
+    total_branches <= '0;
+    current_cycle_branch <= 0;
+  end
+  else begin
+    // current_cycle_branch <= current_cycle_has_branch;
+    if (current_cycle_has_branch)
+      total_branches <= total_branches + 1;
+  end
 end
 
 endmodule : decoder 

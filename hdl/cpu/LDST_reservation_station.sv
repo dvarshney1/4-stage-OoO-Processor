@@ -58,6 +58,8 @@ logic [ls_rs_index_bits-1:0] lsrs_tail, lsrs_head, lsrs_tail_next, lsrs_head_nex
 logic lsrs_empty, lsrs_full, lsrs_flag;
 
 logic lsrs_load_full;
+logic [31:0] lsrs_total, lsrs_total_next;
+logic [31:0] lsrs_full_count, lsrs_full_count_next;
 
 always_ff @ (posedge clk)begin
     if (rst)
@@ -94,6 +96,9 @@ assign lsrs_really_full = (lsrs_tail == lsrs_head-3'd1) && lsrs_flag;
 assign lsrs_tail_next = (load_lsrs_dec || lsrs_load_full) && ~lsrs_full ? lsrs_tail + 3'd1 : lsrs_tail;
 assign lsrs_head_next = mem_d_resp && ~lsrs_empty ? lsrs_head + 3'd1 : lsrs_head;
 assign widx_lsrs = lsrs_tail + {1'b0,3'(alu_rs_size)};
+
+assign lsrs_total_next = load_lsrs_dec ? lsrs_total + 32'd1 : lsrs_total;
+assign lsrs_full_count_next = (lsrs_tail == lsrs_head-3'd1) ? lsrs_full_count + 32'd1 : lsrs_full_count;
 
 
 enum int unsigned {init, read, write} state, next_state;
@@ -172,12 +177,16 @@ begin
         lsrs_head <= '0;
         lsrs_tail <= '0;
         lsrs_flag <= '0;
+        lsrs_total <= '0;
+        lsrs_full_count <= '0;
         for (int j=0; j<ls_rs_size; j=j+1) 
             ls_rs[j] <= '0;
     end
     else begin
         lsrs_tail <= lsrs_tail_next;
         lsrs_head <= lsrs_head_next;
+        lsrs_total <= lsrs_total_next;
+        lsrs_full_count <= lsrs_full_count_next;
         if (~lsrs_flag && load_lsrs_dec && lsrs_full)
             lsrs_flag <= 1;
         else if(lsrs_flag && ~lsrs_full)

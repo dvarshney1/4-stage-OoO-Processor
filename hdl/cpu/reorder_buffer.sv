@@ -27,6 +27,8 @@ ROB rob[rob_size-1:0], rob_next[rob_size-1:0];
 logic [rob_index_bits-1:0] rob_tail, rob_tail_next, rob_head_next;
 logic rob_empty, rob_full, rob_flag;
 logic rob_load_full;
+logic [31:0] rob_total, rob_total_next;
+logic [31:0] rob_full_count, rob_full_count_next;
 
 assign rob_full = (rob_tail == rob_head-4'd1) && ~rob[rob_head].v;
 assign rob_empty = (rob_tail == rob_head);
@@ -35,6 +37,8 @@ assign rob_really_full = (rob_tail == rob_head-4'd1) && rob_flag;
 assign rob_tail_next = (load_rob_dec || rob_load_full) && ~rob_full ? rob_tail + 4'd1 : rob_tail;
 assign rob_head_next = rob[rob_head].v && ~rob_empty ? rob_head + 4'd1 : rob_head ;
 
+assign rob_total_next = load_rob_dec ? rob_total + 1 : rob_total;
+assign rob_full_count_next = (rob_tail == rob_head-4'd1) ? rob_full_count + 1 : rob_full_count;
 
 always_ff @ (posedge clk)begin
     if (rst)
@@ -86,12 +90,16 @@ begin
         rob_head <= '0;
         rob_tail <= '0;
         rob_flag <= '0;
+        rob_total <= '0;
+        rob_full_count <= '0;
         for (int i=0; i<rob_size; i=i+1) 
             rob[i] <= '0;
     end
     else begin
         rob_tail <= rob_tail_next;
         rob_head <= rob_head_next;
+        rob_total <= rob_total_next;
+        rob_full_count <= rob_full_count_next;
         // rob_flag <= rob_full && load_rob_dec;
         if (~rob_flag && load_rob_dec && rob_full)
             rob_flag <= 1;

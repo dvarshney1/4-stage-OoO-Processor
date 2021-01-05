@@ -64,15 +64,21 @@ begin
     //no need of else (for stalling), by default wil remain same
 end
 
+logic [31:0] total_branches_flush;
 
 always_ff @(posedge clk)
 begin
-    if (rst) 
+    if (rst) begin
         PC <= 32'h00000060;
-    else if ((flush && ~mem_i_read) || (flush_reg && mem_i_resp))
+        total_branches_flush <= '0;
+    end 
+    else if ((flush && ~mem_i_read) || (flush_reg && mem_i_resp)) begin
+        total_branches_flush <= total_branches_flush + 1;
         PC <= pc_brrs;
-    else if(mem_i_resp && ~iq_really_full && ~halt) 
+    end
+    else if(mem_i_resp && ~iq_really_full && ~halt) begin
         PC <= PC_next_predict;
+    end
 end
 // assign PC_next_predict = PC+4;
 Branch_Predictor bp(
